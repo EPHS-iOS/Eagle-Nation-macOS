@@ -9,4 +9,13 @@ import Foundation
 
 struct BulletinBackend {
     
+    var bulletinList = [
+        Bulletin(date: Date())
+    ]
+    struct Bulletin: Identifiable {
+        var date: Date
+        var content: String?
+        var file: CGPDFDocument?
+        var id = UUID()
+    }
 }

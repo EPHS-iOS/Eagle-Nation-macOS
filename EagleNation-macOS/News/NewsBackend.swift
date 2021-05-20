@@ -11,9 +11,11 @@ import SwiftUI
 struct NewsBackend {
     
     var news = [
-        Article(title: "test", content: "body", image: Image("EPHSBuilding")),
-        Article(title: "test1", content: "body1", image: Image("EPHSBuilding")),
-        Article(title: "test2", content: "body2", image: Image("EPHSBuilding"))
+        Article(title: "Graduation Tickets Now Available", content: "body", image: Image("graduation-tickets")),
+        Article(title: " EP Student Accepted into a National Elite STEM Program", content: "body1", image: Image("STEM")),
+        Article(title: "Vaccine Updates for Families", content: "body2", image: Image("vaccine")),
+        Article(title: "MN Teacher of the Year Nominees", content: "body3", image: Image("teacher")),
+        Article(title: "Stay Actively Involved in Parent Teacher Conferences", content: "body4", image: Image("conf"))
     ]
     
     mutating func newArticle(title: String, content: String, image: Image) {

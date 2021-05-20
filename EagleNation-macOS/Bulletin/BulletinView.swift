@@ -8,28 +8,15 @@
 import SwiftUI
 
 struct BulletinView: View {
+    var bulletin = EPBulletin().bulletinList
+    
     var body: some View {
-        VStack {
-            HStack {
-                Text("Daily Bulletin").font(.largeTitle)
-                Spacer()
-            }
-            Spacer()
-            Bulletin()
-            Spacer()
-        }
-        .padding()
+        bulletin[0]
     }
 }
 
 struct Bulletin: View {
     var body: some View {
         Text("Insert here")
-    }
-}
-
-struct BulletinView_Previews: PreviewProvider {
-    static var previews: some View {
-        BulletinView()
     }
 }

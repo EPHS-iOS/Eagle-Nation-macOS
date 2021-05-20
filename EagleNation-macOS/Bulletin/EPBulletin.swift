@@ -8,6 +8,9 @@
 import SwiftUI
 
 class EPBulletin {
-    // private var bulletin = BulletinBackend()
+    private var bulletin = BulletinBackend()
     
+    var bulletinList: [BulletinBackend.Bulletin] {
+        bulletin.bulletinList
+    }
 }

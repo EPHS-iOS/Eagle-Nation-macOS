@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18107536264CC7B5009689D2 /* Image+centerCropped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18107535264CC7B5009689D2 /* Image+centerCropped.swift */; };
+		1810753F264DAA0C009689D2 /* View+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810753E264DAA0C009689D2 /* View+cornerRadius.swift */; };
 		182A095E260AD41000C4CC90 /* EPAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A095D260AD41000C4CC90 /* EPAuth.swift */; };
 		182A0961260AD42200C4CC90 /* AuthBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A0960260AD42200C4CC90 /* AuthBackend.swift */; };
 		182A0965260AD50C00C4CC90 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A0964260AD50C00C4CC90 /* AdminView.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		18107535264CC7B5009689D2 /* Image+centerCropped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+centerCropped.swift"; sourceTree = "<group>"; };
+		1810753E264DAA0C009689D2 /* View+cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+cornerRadius.swift"; sourceTree = "<group>"; };
 		182A095D260AD41000C4CC90 /* EPAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPAuth.swift; sourceTree = "<group>"; };
 		182A0960260AD42200C4CC90 /* AuthBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthBackend.swift; sourceTree = "<group>"; };
 		182A0964260AD50C00C4CC90 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				18107535264CC7B5009689D2 /* Image+centerCropped.swift */,
+				1810753E264DAA0C009689D2 /* View+cornerRadius.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,13 +187,13 @@
 				18A0A5F326266711007D52B0 /* NavContentView.swift */,
 				18867C1C25F7325F0063D16A /* EagleNation_macOSApp.swift */,
 				1855D9E72605113500144486 /* News */,
-				18107538264CC7C3009689D2 /* Extensions */,
 				1855D9E82605114A00144486 /* Bulletin */,
 				1855D9E92605116600144486 /* Clubs */,
 				1855D9EA2605117500144486 /* Schedule */,
 				1855D9EB2605119100144486 /* Calendar */,
 				18D7B1E125FBE6BD00083983 /* Authentication */,
 				182A0963260AD4E900C4CC90 /* Administration */,
+				18107538264CC7C3009689D2 /* Extensions */,
 				18867C2025F732630063D16A /* Assets.xcassets */,
 				1855DA0B2607AA2300144486 /* Fonts */,
 				18867C2525F732630063D16A /* Info.plist */,
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				182A096E260AD5E200C4CC90 /* ArticleView.swift in Sources */,
+				1810753F264DAA0C009689D2 /* View+cornerRadius.swift in Sources */,
 				18D7B1D725FB4D2300083983 /* CalendarView.swift in Sources */,
 				1855DA462607BB7600144486 /* NewsBackend.swift in Sources */,
 				1855DA432607BB2600144486 /* EPNews.swift in Sources */,
